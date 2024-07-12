@@ -803,7 +803,7 @@ LastStar.Text = "ONLY IN NITRO'S VERSION!"
 end)
 
 ender.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/Oxide-Hub/main/titanium.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/Oxide-Hub/main/ender.lua"))()
 end)
 
 Demoralized.MouseButton1Click:Connect(function()
