@@ -1,0 +1,816 @@
+_G.HideCharacter = true
+_G.NewVelocity = true
+_G.FlingEnabled = true
+
+local OxideGui = Instance.new("ScreenGui")
+OxideGui.ResetOnSpawn = false
+local thin = Instance.new("Frame")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local SliderBG = Instance.new("Frame")
+local Slider = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Outer = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local Buttons = Instance.new("Frame")
+local sett = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local scripts = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local rean = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local UIListLayout = Instance.new("UIListLayout")
+local pages = Instance.new("Frame")
+local reanimationpage = Instance.new("Frame")
+local NFLCED = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local Regular = Instance.new("TextButton")
+local Frame_5 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local UIGridLayout = Instance.new("UIGridLayout")
+local filler = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local scriptpage = Instance.new("Frame")
+local SBV4 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Frame_6 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local NFLC = Instance.new("TextButton")
+local Frame_7 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_18 = Instance.new("UICorner")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local LastStar = Instance.new("TextButton")
+local Frame_8 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_20 = Instance.new("UICorner")
+local Tita = Instance.new("TextButton")
+local Frame_9 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_22 = Instance.new("UICorner")
+local ender = Instance.new("TextButton")
+local Frame_10 = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local UICorner_24 = Instance.new("UICorner")
+local Demoralized = Instance.new("TextButton")
+local Frame_11 = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local UIGradient_13 = Instance.new("UIGradient")
+local UICorner_26 = Instance.new("UICorner")
+local settingpage = Instance.new("Frame")
+local hc = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Frame_12 = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local UIGradient_14 = Instance.new("UIGradient")
+local nv = Instance.new("TextButton")
+local Frame_13 = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local UIGradient_15 = Instance.new("UIGradient")
+local UICorner_30 = Instance.new("UICorner")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local Fling = Instance.new("TextButton")
+local Frame_14 = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local UIGradient_16 = Instance.new("UIGradient")
+local UICorner_32 = Instance.new("UICorner")
+local Title = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Frame_15 = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local UIGradient_17 = Instance.new("UIGradient")
+
+--Properties:
+
+OxideGui.Name = "OxideGui"
+OxideGui.Parent = game:GetService("CoreGui")
+OxideGui.DisplayOrder = 5
+
+thin.Name = "thin"
+thin.Parent = OxideGui
+thin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+thin.BackgroundTransparency = 1.000
+thin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+thin.BorderSizePixel = 0
+thin.Position = UDim2.new(0.265395105, 0, 0.317789257, 0)
+thin.Size = UDim2.new(0.674000025, 0, 0.674000025, 0)
+
+UIAspectRatioConstraint.Parent = thin
+UIAspectRatioConstraint.AspectRatio = 1.585
+
+Main.Name = "Main"
+Main.Parent = thin
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.558583081, 0, 0.58376509, 0)
+Main.Size = UDim2.new(0.397820175, 0, 0.307426602, 0)
+Main.ZIndex = -5
+
+UICorner.Parent = Main
+
+SliderBG.Name = "SliderBG"
+SliderBG.Parent = Main
+SliderBG.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SliderBG.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SliderBG.BorderSizePixel = 0
+SliderBG.BackgroundTransparency = 1
+SliderBG.Position = UDim2.new(0, 0, 0.188202247, 0)
+SliderBG.Size = UDim2.new(1, 0, 0.0280898344, 0)
+
+Slider.Name = "Slider"
+Slider.Parent = Main
+Slider.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Slider.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slider.BorderSizePixel = 0
+Slider.Position = UDim2.new(0.033181183, 0, 0.187118575, 0)
+Slider.Size = UDim2.new(0.288356155, 0, 0.0280898884, 0)
+Slider.ZIndex = 4
+
+UICorner_2.Parent = Slider
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Rotation = 180
+UIGradient.Parent = Slider
+
+Outer.Name = "Outer"
+Outer.Parent = Main
+Outer.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Outer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Outer.BorderSizePixel = 0
+Outer.Position = UDim2.new(-0.0104110092, 0, -0.147304922, 0)
+Outer.Size = UDim2.new(1.01999998, 0, 1.17820394, 0)
+Outer.ZIndex = -7
+
+UICorner_3.Parent = Outer
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Parent = Outer
+
+Buttons.Name = "Buttons"
+Buttons.Parent = Main
+Buttons.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Buttons.BackgroundTransparency = 1.000
+Buttons.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Buttons.BorderSizePixel = 0
+Buttons.Position = UDim2.new(0, 0, -0.411264151, 0)
+Buttons.Size = UDim2.new(1, 0, 1, 0)
+
+sett.Name = "sett"
+sett.Parent = Buttons
+sett.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+sett.BorderColor3 = Color3.fromRGB(49, 203, 233)
+sett.BorderSizePixel = 0
+sett.LayoutOrder = 3
+sett.Position = UDim2.new(0.0342465751, 0, 0, 0)
+sett.Size = UDim2.new(0.273972601, 0, 0.140449435, 0)
+sett.ZIndex = 2
+sett.Font = Enum.Font.Ubuntu
+sett.Text = "Settings"
+sett.TextColor3 = Color3.fromRGB(49, 203, 233)
+sett.TextSize = 24.000
+sett.TextWrapped = true
+
+Frame.Parent = sett
+Frame.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.0199999996, 0, -0.051799316, 0)
+Frame.Size = UDim2.new(1.03999996, 0, 1.09179926, 0)
+
+UICorner_4.Parent = Frame
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Rotation = 180
+UIGradient_3.Parent = Frame
+
+UICorner_5.Parent = sett
+
+scripts.Name = "scripts"
+scripts.Parent = Buttons
+scripts.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+scripts.BorderColor3 = Color3.fromRGB(49, 203, 233)
+scripts.BorderSizePixel = 0
+scripts.LayoutOrder = 2
+scripts.Position = UDim2.new(0.366057843, 0, 0.460986316, 0)
+scripts.Size = UDim2.new(0.273972601, 0, 0.140449435, 0)
+scripts.ZIndex = 2
+scripts.Font = Enum.Font.Ubuntu
+scripts.Text = "Scripts"
+scripts.TextColor3 = Color3.fromRGB(49, 203, 233)
+scripts.TextSize = 24.000
+scripts.TextWrapped = true
+
+UICorner_6.Parent = scripts
+
+Frame_2.Parent = scripts
+Frame_2.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-0.0199999996, 0, -0.051799316, 0)
+Frame_2.Size = UDim2.new(1.03999996, 0, 1.09179926, 0)
+
+UICorner_7.Parent = Frame_2
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Rotation = 180
+UIGradient_4.Parent = Frame_2
+
+rean.Name = "rean"
+rean.Parent = Buttons
+rean.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+rean.BorderColor3 = Color3.fromRGB(49, 203, 233)
+rean.BorderSizePixel = 0
+rean.LayoutOrder = 1
+rean.Position = UDim2.new(0.0376712345, 0, 0.429775268, 0)
+rean.Size = UDim2.new(0.273972601, 0, 0.140449435, 0)
+rean.ZIndex = 2
+rean.Font = Enum.Font.Ubuntu
+rean.Text = "Reanimation"
+rean.TextColor3 = Color3.fromRGB(49, 203, 233)
+rean.TextSize = 24.000
+rean.TextWrapped = true
+
+UICorner_8.Parent = rean
+
+Frame_3.Parent = rean
+Frame_3.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(-0.0199999996, 0, -0.051799316, 0)
+Frame_3.Size = UDim2.new(1.03999996, 0, 1.09179926, 0)
+
+UICorner_9.Parent = Frame_3
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Rotation = 180
+UIGradient_5.Parent = Frame_3
+
+UIListLayout.Parent = Buttons
+UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout.Padding = UDim.new(0.0500000007, 0)
+
+
+pages.Name = "pages"
+pages.Parent = Main
+pages.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pages.BackgroundTransparency = 1.000
+pages.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pages.BorderSizePixel = 0
+pages.Size = UDim2.new(1, 0, 1, 0)
+pages.ZIndex = 100
+
+reanimationpage.Name = "reanimation page"
+reanimationpage.Parent = pages
+reanimationpage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+reanimationpage.BackgroundTransparency = 1.000
+reanimationpage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+reanimationpage.BorderSizePixel = 0
+reanimationpage.Position = UDim2.new(-2.74240156e-05, 0, 0.216292128, 0)
+reanimationpage.Size = UDim2.new(1.00961649, 0, 0.783707857, 0)
+reanimationpage.ZIndex = 10
+
+NFLCED.Name = "NFLCED"
+NFLCED.Parent = reanimationpage
+NFLCED.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+NFLCED.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NFLCED.BorderSizePixel = 0
+NFLCED.Position = UDim2.new(0.363013685, 0, 0.498207897, 0)
+NFLCED.Size = UDim2.new(0, 200, 0, 50)
+NFLCED.ZIndex = 3
+NFLCED.LayoutOrder = 3
+NFLCED.Font = Enum.Font.Ubuntu
+NFLCED.Text = "Oxide V2 - NFLC Version"
+NFLCED.TextColor3 = Color3.fromRGB(49, 203, 23348)
+NFLCED.TextSize = 14.000
+
+UICorner_10.Parent = NFLCED
+
+Frame_4.Parent = NFLCED
+Frame_4.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.LayoutOrder = -1
+Frame_4.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_4.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_4.ZIndex = -5
+
+UICorner_11.Parent = Frame_4
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_6.Rotation = 180
+UIGradient_6.Parent = Frame_4
+
+Regular.Name = "Regular"
+Regular.Parent = reanimationpage
+Regular.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Regular.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Regular.BorderSizePixel = 0
+Regular.Position = UDim2.new(0.363013685, 0, 0.11469534, 0)
+Regular.Size = UDim2.new(0, 200, 0, 50)
+Regular.ZIndex = 0
+Regular.Font = Enum.Font.Ubuntu
+Regular.Text = "Oxide V2"
+Regular.TextColor3 = Color3.fromRGB(49, 203, 23348)
+Regular.TextSize = 14.000
+
+Frame_5.Parent = Regular
+Frame_5.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.LayoutOrder = -1
+Frame_5.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_5.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_5.ZIndex = -5
+
+UICorner_12.Parent = Frame_5
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_7.Rotation = 180
+UIGradient_7.Parent = Frame_5
+
+UICorner_13.Parent = Regular
+
+UIGridLayout.Parent = scriptpage
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+UIGridLayout.CellPadding = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+UIGridLayout.CellSize = UDim2.new(0, 200, 0, 50)
+
+filler.Name = "filler"
+filler.Parent = reanimationpage
+filler.Active = false
+filler.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+filler.BackgroundTransparency = 1.000
+filler.BorderColor3 = Color3.fromRGB(0, 0, 0)
+filler.BorderSizePixel = 0
+filler.Position = UDim2.new(0.363013685, 0, 0.11469534, 0)
+filler.Size = UDim2.new(0, 200, 0, 50)
+filler.ZIndex = -5
+filler.LayoutOrder = 500
+filler.Font = Enum.Font.Ubuntu
+filler.Text = "Oxide V2"
+filler.TextColor3 = Color3.fromRGB(49, 203, 23348)
+filler.TextSize = 14.000
+filler.TextTransparency = 1.000
+
+UICorner_14.Parent = filler
+
+scriptpage.Name = "scriptpage"
+scriptpage.Parent = pages
+scriptpage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptpage.BackgroundTransparency = 1.000
+scriptpage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scriptpage.BorderSizePixel = 0
+scriptpage.Position = UDim2.new(-2.74240156e-05, 0, 0.216292128, 0)
+scriptpage.Size = UDim2.new(1.00961649, 0, 0.783707857, 0)
+scriptpage.Visible = false
+scriptpage.ZIndex = 10
+
+SBV4.Name = "SBV4"
+SBV4.Parent = scriptpage
+SBV4.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+SBV4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SBV4.BorderSizePixel = 0
+SBV4.Position = UDim2.new(0.363013685, 0, 0.498207897, 0)
+SBV4.Size = UDim2.new(0, 200, 0, 50)
+SBV4.ZIndex = 3
+SBV4.Font = Enum.Font.Ubuntu
+SBV4.Text = "Snake Banisher V4"
+SBV4.TextColor3 = Color3.fromRGB(49, 203, 23348)
+SBV4.TextSize = 14.000
+
+UICorner_15.Parent = SBV4
+
+Frame_6.Parent = SBV4
+Frame_6.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.LayoutOrder = -1
+Frame_6.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_6.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_6.ZIndex = -5
+
+UICorner_16.Parent = Frame_6
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_8.Rotation = 180
+UIGradient_8.Parent = Frame_6
+
+NFLC.Name = "NFLC"
+NFLC.Parent = scriptpage
+NFLC.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+NFLC.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NFLC.BorderSizePixel = 0
+NFLC.Position = UDim2.new(0.363013685, 0, 0.11469534, 0)
+NFLC.Size = UDim2.new(0, 200, 0, 50)
+NFLC.ZIndex = 0
+NFLC.Font = Enum.Font.Ubuntu
+NFLC.Text = "NFLC"
+NFLC.TextColor3 = Color3.fromRGB(49, 203, 23348)
+NFLC.TextSize = 14.000
+
+Frame_7.Parent = NFLC
+Frame_7.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_7.BorderSizePixel = 0
+Frame_7.LayoutOrder = -1
+Frame_7.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_7.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_7.ZIndex = -5
+
+UICorner_17.Parent = Frame_7
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_9.Rotation = 180
+UIGradient_9.Parent = Frame_7
+
+UICorner_18.Parent = NFLC
+
+UIListLayout_3.Parent = reanimationpage
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_3.Padding = UDim.new(0.0500000007, 0)
+
+LastStar.Name = "Last Star"
+LastStar.Parent = scriptpage
+LastStar.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+LastStar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LastStar.BorderSizePixel = 0
+LastStar.Position = UDim2.new(0.363013685, 0, 0.11469534, 0)
+LastStar.Size = UDim2.new(0, 200, 0, 50)
+LastStar.ZIndex = 0
+LastStar.Font = Enum.Font.Ubuntu
+LastStar.Text = "Last Star"
+LastStar.TextColor3 = Color3.fromRGB(49, 203, 23348)
+LastStar.TextSize = 14.000
+
+Frame_8.Parent = LastStar
+Frame_8.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_8.BorderSizePixel = 0
+Frame_8.LayoutOrder = -1
+Frame_8.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_8.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_8.ZIndex = -5
+
+UICorner_19.Parent = Frame_8
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_10.Rotation = 180
+UIGradient_10.Parent = Frame_8
+
+UICorner_20.Parent = LastStar
+
+Tita.Name = "Tita"
+Tita.Parent = scriptpage
+Tita.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Tita.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tita.BorderSizePixel = 0
+Tita.Position = UDim2.new(0.363013685, 0, 0.11469534, 0)
+Tita.Size = UDim2.new(0, 200, 0, 50)
+Tita.ZIndex = 0
+Tita.Font = Enum.Font.Ubuntu
+Tita.Text = "Titanium Runner"
+Tita.TextColor3 = Color3.fromRGB(49, 203, 23348)
+Tita.TextSize = 14.000
+
+Frame_9.Parent = Tita
+Frame_9.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_9.BorderSizePixel = 0
+Frame_9.LayoutOrder = -1
+Frame_9.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_9.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_9.ZIndex = -5
+
+UICorner_21.Parent = Frame_9
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_11.Rotation = 180
+UIGradient_11.Parent = Frame_9
+
+UICorner_22.Parent = Tita
+
+ender.Name = "ender"
+ender.Parent = scriptpage
+ender.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+ender.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ender.BorderSizePixel = 0
+ender.Position = UDim2.new(0.363013685, 0, 0.11469534, 0)
+ender.Size = UDim2.new(0, 200, 0, 50)
+ender.ZIndex = 0
+ender.LayoutOrder = 10
+ender.Font = Enum.Font.Ubuntu
+ender.Text = "Ender"
+ender.TextColor3 = Color3.fromRGB(49, 203, 23348)
+ender.TextSize = 14.000
+
+Frame_10.Parent = ender
+Frame_10.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_10.BorderSizePixel = 0
+Frame_10.LayoutOrder = -1
+Frame_10.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_10.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_10.ZIndex = -5
+
+UICorner_23.Parent = Frame_10
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_12.Rotation = 180
+UIGradient_12.Parent = Frame_10
+
+UICorner_24.Parent = ender
+
+Demoralized.Name = "Demoralized"
+Demoralized.Parent = scriptpage
+Demoralized.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Demoralized.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Demoralized.BorderSizePixel = 0
+Demoralized.Position = UDim2.new(0.363013685, 0, 0.11469534, 0)
+Demoralized.Size = UDim2.new(0, 200, 0, 50)
+Demoralized.ZIndex = 0
+Demoralized.Font = Enum.Font.Ubuntu
+Demoralized.Text = "Demoralized"
+Demoralized.TextColor3 = Color3.fromRGB(49, 203, 23348)
+Demoralized.TextSize = 14.000
+
+Frame_11.Parent = Demoralized
+Frame_11.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_11.BorderSizePixel = 0
+Frame_11.LayoutOrder = -1
+Frame_11.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_11.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_11.ZIndex = -5
+
+UICorner_25.Parent = Frame_11
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_13.Rotation = 180
+UIGradient_13.Parent = Frame_11
+
+UICorner_26.Parent = Demoralized
+
+settingpage.Name = "settingpage"
+settingpage.Parent = pages
+settingpage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+settingpage.BackgroundTransparency = 1.000
+settingpage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+settingpage.BorderSizePixel = 0
+settingpage.Position = UDim2.new(-2.74240156e-05, 0, 0.216292128, 0)
+settingpage.Size = UDim2.new(1.00961649, 0, 0.783707857, 0)
+settingpage.Visible = false
+settingpage.ZIndex = 10
+
+hc.Name = "hc"
+hc.Parent = settingpage
+hc.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+hc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hc.BorderSizePixel = 0
+hc.Position = UDim2.new(0.363013685, 0, 0.498207897, 0)
+hc.Size = UDim2.new(0, 200, 0, 50)
+hc.ZIndex = 3
+hc.Font = Enum.Font.Ubuntu
+hc.Text = "Hide Character: True"
+hc.TextColor3 = Color3.fromRGB(49, 203, 23348)
+hc.TextSize = 14.000
+
+UICorner_27.Parent = hc
+
+Frame_12.Parent = hc
+Frame_12.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_12.BorderSizePixel = 0
+Frame_12.LayoutOrder = -1
+Frame_12.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_12.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_12.ZIndex = -5
+
+UICorner_28.Parent = Frame_12
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_14.Rotation = 180
+UIGradient_14.Parent = Frame_12
+
+nv.Name = "nv"
+nv.Parent = settingpage
+nv.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+nv.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nv.BorderSizePixel = 0
+nv.Position = UDim2.new(0.363013685, 0, 0.11469534, 0)
+nv.Size = UDim2.new(0, 200, 0, 50)
+nv.ZIndex = 0
+nv.Font = Enum.Font.Ubuntu
+nv.Text = "New Velocity: True"
+nv.TextColor3 = Color3.fromRGB(49, 203, 23348)
+nv.TextSize = 14.000
+
+Frame_13.Parent = nv
+Frame_13.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_13.BorderSizePixel = 0
+Frame_13.LayoutOrder = -1
+Frame_13.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_13.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_13.ZIndex = -5
+
+UICorner_29.Parent = Frame_13
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_15.Rotation = 180
+UIGradient_15.Parent = Frame_13
+
+UICorner_30.Parent = nv
+
+UIListLayout_4.Parent = settingpage
+UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_4.Padding = UDim.new(0.0500000007, 0)
+
+Fling.Name = "Fling"
+Fling.Parent = settingpage
+Fling.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Fling.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fling.BorderSizePixel = 0
+Fling.Position = UDim2.new(0.363013685, 0, 0.11469534, 0)
+Fling.Size = UDim2.new(0, 200, 0, 50)
+Fling.ZIndex = 0
+Fling.Font = Enum.Font.Ubuntu
+Fling.Text = "Fling: True"
+Fling.TextColor3 = Color3.fromRGB(49, 203, 23348)
+Fling.TextSize = 14.000
+
+Frame_14.Parent = Fling
+Frame_14.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_14.BorderSizePixel = 0
+Frame_14.LayoutOrder = -1
+Frame_14.Position = UDim2.new(-0.0176416021, 0, -0.051799316, 0)
+Frame_14.Size = UDim2.new(1.03264165, 0, 1.09179926, 0)
+Frame_14.ZIndex = -5
+
+UICorner_31.Parent = Frame_14
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_16.Rotation = 180
+UIGradient_16.Parent = Frame_14
+
+UICorner_32.Parent = Fling
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 0, -0.128433287, 0)
+Title.Size = UDim2.new(1, 0, 0.268667072, 0)
+Title.ZIndex = 0
+
+UICorner_33.Parent = Title
+
+TextLabel.Parent = Title
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, 1.2207031e-06, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.437279016, 0)
+TextLabel.Font = Enum.Font.Ubuntu
+TextLabel.Text = "Oxide Hub - V1"
+TextLabel.TextColor3 = Color3.fromRGB(49, 203, 233)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Frame_15.Parent = Title
+Frame_15.BackgroundColor3 = Color3.fromRGB(49, 203, 233)
+Frame_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_15.BorderSizePixel = 0
+Frame_15.Position = UDim2.new(0.293074667, 0, 0.413052112, 0)
+Frame_15.Size = UDim2.new(0.410958916, 0, 0.0580848791, 0)
+Frame_15.ZIndex = 4
+
+UICorner_34.Parent = Frame_15
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 203, 233)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(120, 203, 244)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_17.Rotation = 180
+UIGradient_17.Parent = Frame_15
+Main.Draggable = true
+
+rean.MouseButton1Click:Connect(function()
+	reanimationpage.Visible = true
+	scriptpage.Visible = false
+	settingpage.Visible = false
+	Slider:TweenPosition(UDim2.new(0.033, 0, 0.188202247, 0),	
+		Enum.EasingDirection.Out, 
+		Enum.EasingStyle.Sine,
+		.5,                       
+		true   
+	)
+end)
+
+scripts.MouseButton1Click:Connect(function()
+	reanimationpage.Visible = false
+	scriptpage.Visible = true
+	settingpage.Visible = false
+	Slider:TweenPosition(UDim2.new(0.357, 0, 0.188202247, 0),	
+		Enum.EasingDirection.Out, 
+		Enum.EasingStyle.Sine,
+		.5,                       
+		true     
+	)
+end)
+
+sett.MouseButton1Click:Connect(function()
+	reanimationpage.Visible = false
+	scriptpage.Visible = false
+	settingpage.Visible = true
+	Slider:TweenPosition(UDim2.new(0.68, 0, 0.188202247, 0),	
+		Enum.EasingDirection.Out, 
+		Enum.EasingStyle.Sine,
+		.5,                       
+		true                
+	)
+end)
+
+SBV4.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/stuff/main/sb"))()
+end)
+
+Fling.MouseButton1Click:Connect(function()
+	_G.FlingEnabled = not _G.FlingEnabled
+	Fling.Text = "Fling:"..tostring(_G.FlingEnabled)
+end)
+
+nv.MouseButton1Click:Connect(function()
+	_G.NewVelocity = not _G.NewVelocity
+	nv.Text = "New Velocity:"..tostring(_G.NewVelocity)
+end)
+
+hc.MouseButton1Click:Connect(function()
+	_G.HideCharacter = not _G.HideCharacter
+	hc.Text = "Hide Character:"..tostring(_G.HideCharacter)
+end)
+
+Regular.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/Oxide-Hub/main/oxide.lua"))()
+        setfpscap(165)
+end)
+
+NFLCED.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/Oxide-Hub/main/nflcoxide.lua"))()
+     setfpscap(165)
+end)
+
+NFLC.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/NFLC/main/main"))()
+end)
+
+LastStar.MouseButton1Click:Connect(function()
+LastStar.Text = "ONLY IN NITRO'S VERSION!"
+end)
+
+ender.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/Oxide-Hub/main/titanium.lua"))()
+end)
+
+Demoralized.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/stuff/main/dem5"))()
+    setfpscap(60)
+end)
+
+Tita.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/Oxide-Hub/main/titanium.lua"))()
+end)
